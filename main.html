@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Step01_Example.html</title>
 	<link rel="stylesheet" href="css/main.css">
-
+<link rel="stylesheet" href="css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 </head>
 <body>
 
@@ -15,11 +16,11 @@
 	<div id="nav_out">
 		<div class="nav_text">
 			<ul>
-				<li class="on"><a href="#about">About</a></li>
-				<li><a href="#shop">Shodddddp</a></li>
-				<li><a href="#member">Member</a></li>
-				<li><a class="btn-draw" href="#"><span>Hover Me</span></a>
-
+				<li><a href="#about"><b>About</b></a></li>
+				<li><a href=""><b>Shop</b></a></li>
+        <li><a href="#Community"><b>Community</b></a></li>
+				<li><a href="#member"><b>Member</b></a></li>
+        <li><a href=""><b>Lookbook</b></a></li>
 			</ul>
 		</div>
 	</div>
@@ -31,7 +32,7 @@
 			</div>
 		</div>
 		<div id="nav_users">
-			<a href=""><img  class="nav_icon_size" src="images/icon_login.png" alt="로그인"></a>
+			<a href="#login"><img  class="nav_icon_size" src="images/icon_login.png" alt="로그인"></a>
 		<!-- 	<img class="nav_icon_size"  src="images/icon_logout.png" alt="로그아웃"> -->
 			<a href=""><img class="nav_icon_size" src="images/icon_sign_up.png" alt="회원가입"></a>
 		</div>
@@ -102,47 +103,75 @@
   </div>
 </div>
 
+<!-- 로그인 부분   -->
+<div id="login">
+  
+</div>
 <!-- 섹션 부분   -->
 <seciton id="one">
+<div id="Community">
+  <p class="heading">COMMUNITY</p>
 
-<div id="about">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta</p>
-</div>
+  <div class="com_content">
+  <div class="tabs">
+    <div class="tab-2">
+      <label for="tab2-1">NEWS</label>
+      <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+      <div>
+        <p class="info">soapsoap의 새로운 소식을
+        빠르게 업데이트합니다</p>
+        <button>send</button>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Title</th>
+              <th scope="col">Writer</th>
+              <th scope="col">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ddddd</td>
+              <td>ddddd</td>
+              <td>ddddd</td>
+              <td>ddddd</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-2">
+      <label for="tab2-2">Q&A</label>
+      <input id="tab2-2" name="tabs-two" type="radio">
+      <div>
+      <p class="info">궁금하신 점이 있으면 자유롭게 물어보세요.<br />
+      최대한 빠르게 답변해 드리겠습니다.</p>
+      <button>send</button>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Title</th>
+              <th scope="col">Writer</th>
+              <th scope="col">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ddddd</td>
+              <td>ddddd</td>
+              <td>ddddd</td>
+              <td>ddddd</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
 
-<div id="shop">
-  <div class="banner">shop</div>
-	<p class="product">
-    <img src="images/05.jpg" alt="">
-    <p>비누비누</p>
-    <span>25300원</span>
-  </p>
-  <p class="product">
-    <img src="images/05.jpg" alt="">
-    <p>비누비누</p>
-    <span>25300원</span>
-  </p>
-  <p class="product">
-    <img src="images/05.jpg" alt="">
-    <p>비누비누</p>
-    <span>25300원</span>
-  </p>
-</div>
-
-<div id="member">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo, maiores eligendi quibusdam quam consequatur reiciendis consectetur! Error alias quibusdam quaerat nostrum voluptates, repellendus et fuga veniam omnis ullam dicta</p>
-</div>
 </seciton>
 
 <script src="js/jquery-3.3.1.js"></script>
